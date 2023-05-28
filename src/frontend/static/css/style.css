@@ -1,0 +1,584 @@
+body {
+    width:100%;
+    height : 100vh;
+    background-image: url("background2.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: arial;
+    background-attachment: fixed;
+    
+}
+
+h3{
+text-align: center;
+}
+
+#welcome{
+    margin-top : 0;
+    margin-left : 18%;
+    margin-bottom : 5%;
+    color :rgb(200, 200, 200);
+    font-size : 150px;
+}
+
+#oeuvreForm{
+    border-top: 1px solid rgb(200, 200, 200);
+    margin-top: 40px;
+    padding-top: 3px;
+    color:rgb(200, 200, 200);
+    font-size:small;
+    text-align: center;
+}
+
+
+#formulaireDeContact{
+    border-top: 1px solid rgb(200, 200, 200);
+    margin-top: 40px;
+    padding-top: 3px;
+    color:rgb(200, 200, 200);
+    font-size:small;
+    text-align: center;
+}
+
+.formdect{
+    margin-right: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 120px;
+}
+#dejacpt{
+    padding-top: 20px;
+}
+#espace{
+    padding: 15px;
+}
+.corps {
+    padding: 0 7% 0 7%;
+}
+
+h1 {
+    text-align: center;
+    color : rgb(200, 200, 200);
+    width: 85%;
+    height: 7%;
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.melodymaster {
+    padding-top: 3%;
+    color : rgb(200, 200, 200);
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+    text-align: left;
+    font-size: xx-large;
+}
+
+h3{
+    border-top: 1px solid rgb(200, 200, 200);
+    color : rgb(200, 200, 200);
+    left:5px;
+    right:5px;
+    padding-top: 10px;
+}
+#mp2{
+    position: absolute;
+    top: 50px;
+    left:40%;
+    font-size: 20px;
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 2em black;
+}
+#mp3{
+    position: absolute;
+    top: 50px;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 20px;
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 2em black;
+}
+
+#mozartquintet{
+    color: rgb(200,200,200);
+}
+
+input[type="text"]
+{
+    
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 20px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+
+}
+
+input[type="password"]
+{
+    
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 20px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+
+}
+
+input[type="email"]
+{
+    
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 20px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+
+}
+
+#message
+{
+    
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 20px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+
+}
+
+
+
+.button{
+display: inline-block;
+outline: 0;
+border: 0;
+cursor: pointer;
+will-change: box-shadow,transform;
+background: radial-gradient( 100% 100% at 100% 0%, #b00000 0%, #620000 100% );
+box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+padding: 0 15px;
+margin : 5px;;
+border-radius: 6px;
+color: #fff;
+height: 48px;
+font-size: 18px;
+text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+transition: box-shadow 0.15s ease,transform 0.15s ease;
+vertical-align:middle;
+}
+
+.button:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(173, 0, 0);
+    transform: translateY(-2px);
+}
+.button:active{
+    box-shadow: inset 0px 3px 7px orange;
+    transform: translateY(2px);
+}
+
+
+#oeuvreDisponible{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.button2{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: radial-gradient( 100% 100% at 100% 0%, #777777 0%, #3a3a3a 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 15px;
+    border-radius: 6px;
+    color: #fff;
+    height: 30px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    vertical-align:middle;
+    }
+    
+.button2:hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #777777;
+        transform: translateY(-2px);
+}
+.button2:active{
+        box-shadow: inset 0px 3px 7px rgb(219, 219, 219);
+        transform: translateY(2px);
+}
+
+
+.button3{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #00b576 0%, #007321 100% );
+    box-shadow: 0px 2px 4px rgb(0, 214, 46), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 15px;
+    border-radius: 6px;
+    color: #fff;
+    height: 30px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    vertical-align:middle;
+    }
+.button3:focus {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #777777;
+        transform: translateY(-2px);
+        background: radial-gradient( 100% 100% at 100% 0%, #e80000 0%, #730000 100% );
+}
+
+.instru{
+    background-color:green !important;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgb(0, 214, 46), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 15px;
+    border-radius: 6px;
+    color: #fff;
+    height: 30px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    vertical-align:middle;
+}
+.instru:hover {
+    box-shadow: 0px 4px 8px rgba(0, 202, 57, 0.582), 0px 7px 13px -3px rgb(0, 201, 20), inset 0px -3px 0px #007516;
+    transform: translateY(-2px);
+}
+.instru2{
+    background-color:rgb(183, 0, 0) !important ;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 15px;
+    border-radius: 6px;
+    color: #fff;
+    height: 30px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    vertical-align:middle;
+}
+.instru2:hover {
+    box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.393), 0px 7px 13px -3px rgb(255, 119, 0), inset 0px -3px 0px #750000;
+    transform: translateY(-2px);
+}
+
+#bienvenue {
+    color : white;
+    font-family : arial;
+    padding-bottom : 40px;
+    font-weight: bold;
+    text-shadow: black 3px 0 5px;
+
+}
+
+#pasCompte{
+    color : white;
+    font-family : arial;
+    padding-bottom : 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+
+.menuRetour {
+    text-align: left;
+    color: blue;
+    cursor: pointer;
+    padding-left: 7%;
+}
+
+#connexionForm, #inscriptionForm {
+    text-align: center;
+    color:white;
+    font-family: arial;
+    font-weight: bold;
+    
+}
+
+#carreConnexion{
+    border : 1px solid rgb(100, 100, 100);
+    margin-left : 35%;
+    margin-right : 35%;
+}
+
+#carreInscription{
+    border : 1px solid rgb(100, 100, 100);
+    margin-left : 35%;
+    margin-right : 35%;
+}
+
+#inscriptionForm a, #connexionForm a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+#connexionForm p, #inscriptionForm p {
+    margin-bottom: 5px;
+}
+
+#name, #email, #message{
+}
+#modeAdmButton{
+    text-align: right;
+    position : absolute;
+    top:4%;
+    right:18%;
+}
+
+#seDecoButton{
+    text-align: right;
+    position : absolute;
+    top:4%;
+    right:6%;
+    vertical-align:middle;
+    padding-top: 12px;
+
+}
+
+#seDecoButton2{
+    text-align: right;
+    position : absolute;
+    top:4%;
+    right:6%;
+    vertical-align:middle;
+
+}
+
+input {
+    margin-bottom: 20px;
+    background-color: none;
+    outline:0px;
+}
+
+#erreur, #errInscription {
+    color: red;
+}
+
+.menuHaut {
+    color: blue;
+}
+
+.menuHaut a {
+    cursor: pointer;
+}
+
+#menuLateral {
+    position: absolute;
+    display: inline-grid;
+    margin-top: 4%;
+    margin-left: 18%;
+}
+
+#menuLateral input {
+    width: 52px;
+    height: 52px;
+    background-size: 90%;
+    background-position: center;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 4px;
+}
+#titreOeuvre{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#analyseBtn {
+    background: rgb(239, 239, 239) url(../data/analyseIcone.png) left no-repeat;
+    cursor: pointer;
+}
+#analyseBtn:hover{
+    -webkit-filter: brightness(50%);
+}
+
+#partitionBtn {
+    background: rgb(239, 239, 239) url(../data/partitionIcone.png) left no-repeat;
+    cursor: pointer;
+}
+#partitionBtn:hover{
+    -webkit-filter: brightness(50%);
+}
+
+#pianoRollBtn {
+    background: rgb(239, 239, 239) url(../data/pianoRollIcone.png) left no-repeat;
+    cursor: pointer;
+}
+#pianoRollBtn:hover{
+    -webkit-filter: brightness(50%);
+}
+
+#textBtn {
+    background: rgb(239, 239, 239) url(../data/textIcone.png) left no-repeat;
+    cursor: pointer;
+}
+#textBtn:hover{
+    -webkit-filter: brightness(50%);
+}
+
+.thumbnail {    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+}
+
+.thumbnail img {
+    width: 260px;
+    height: auto;
+}
+.thumbnail:hover img{
+    -webkit-filter: brightness(50%);
+}
+
+#zone_video {
+    display: flex;
+}
+
+#video {
+    margin: auto;
+}
+
+#videoCanvas {
+    margin: auto;
+    height: 400px;
+}
+
+#overlayVideo {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#muteInstrument {
+    text-align: center;
+    position: absolute;
+    display: inline-grid;
+    margin-left: 50%;
+    margin-top: 6%;
+    right: 20%;
+}
+
+#muteInstrument input {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#zone_partie {
+    width: 100%;
+    background-color: lightgrey;
+    border: 2px solid;
+    border-color: grey;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 17px;;
+}
+
+#interface {
+    width: 100%;
+}
+
+#interface input{
+    width: 100%;
+}
+
+.partieDiv {
+    width: 100%;
+    display: block;
+    margin: 0 2px 0 2px;
+}
+
+.sectionDiv {
+    width: 100%;
+    display: table-cell;
+}
+
+.sousSectionDiv {
+    width: 100%;
+    display: table-cell;
+} 
+
+#zone_text {
+    overflow:auto;
+    width: 100%;
+    height: 260px;
+}
+
+#zone_text p{
+    text-align: justify;
+}
+
+#pianoRollCanvas {
+    height:588px;
+    width:800px;
+}
+
+#zone_partie{
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#zone_text{
+    color: rgb(200, 200, 200);
+    margin-bottom: 60px;
+}
+
+input[type=button]{
+    background-color: rgb(60, 60, 60);
+    color: rgb(200, 200, 200);
+}

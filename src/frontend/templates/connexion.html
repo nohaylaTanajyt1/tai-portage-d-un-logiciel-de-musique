@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Connexion</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}" />
+  <!--<link rel="icon" type="image/jpg" href="../../data/favicon.jpg" />-->
+</head>
+
+<body onload="myfunction_onload()">
+    <p class="melodymaster">MelodyMaster</p>
+    <div id="mp3"> - Connexion - </div>
+    <section class="corps">
+    <form id="connexionForm">
+      
+      <p id="bienvenue">Bienvenue sur MelodyMaster </br> Pour continuer, veuillez vous connecter :</p>
+        <div id="carreConnexion">
+      <p>Identifiant</p>
+      <input type="text" id="identifiant" placeholder="Identifiant" />
+      <p>Mot de passe</p>
+      <input type="password" id="mdp" placeholder="Mot de passe" />
+      <p>
+        <input class="button" type="button" id="connexionBtn" value="Connexion" onclick="boutonConnexion()" />
+        <input class="button" type="button" id="annulerBtn" value="Annuler" />
+      </p>
+    </div>
+  </div>
+      <!---<a href="">Mot de passe oublié</a>-->
+      <p id="erreur"></p>
+      <p id="pasCompte">Vous n'avez pas de compte ? </br>
+        <a id="lienInscription"  onclick="goInscription()">S'inscrire</a>
+      </p>
+      
+    </form>
+  </section>
+
+  <script src="{{ url_for('static',filename='js/connexion.js') }}"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="js/jquery.xdomainajax.js"></script>
+
+</body>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Menu Principal</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}" />
+</head>
+
+<body onload="onLoad()">
+  <p class="menuHaut">
+    <button id="modeAdmButton" class="button" onclick="modeAdmin()">Mode Administrateur</button>
+    <button id="seDecoButton2" class="button" onclick="seDeconnecter()">Se déconnecter</button>
+  
+  </p>
+  <p class="melodymaster">MelodyMaster</p>
+  <!--<nav>
+    <ul>
+      <li><a href="#" class="accueil">Accueil</a></li>
+      <li><a href="#">Oeuvres Disponibles</a></li>
+      <li><a href="#">Quelques auteurs</a></li>
+    </ul>
+  </nav>-->
+  <section class="corps">
+    <p id="welcome">Bienvenue !</p>
+    <p id="bienvenue">Ce site permet d'écouter de la musique tout en voyant les musiciens qui la jouent et en lisant les différentes lignes instrumentales sur la partition qui 
+      défile à l’écran. Vous pourrez isoler les différentes parties instrumentales attachées à la partition et apercevoir la/les mélodies sous forme graphique. 
+      Par ailleurs, reliées à la musique, des vignettes apparaissent pour une analyse musicologique ou des informations ayant trait à l’histoire de la musique.</p>
+    
+    <h3>Œuvres disponibles</h3>
+    <div id="oeuvreDisponible"></div>
+  </section> 
+  
+  <!--<section class="corps">
+    <h3>Œuvres disponibles</h3>
+    <div id="oeuvreDisponible"></div>
+  </section>
+-->
+
+  <section class="corps"> 
+    
+    <form action="#" method="post" id="formulaireDeContact">
+      <h2 > Formulaire de Contact</h2>
+      
+      <div class="formdect">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div class="formdect">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="formdect">
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      
+        <button type="submit" class="button">Envoyer</button>
+        <br>  <br>  <br>  <br> 
+     
+    </form>
+    
+  </section>
+
+
+  <script src="{{ url_for('static',filename='js/menuPrincipal.js') }}"></script>
+</body>

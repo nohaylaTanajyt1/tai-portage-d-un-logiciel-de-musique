@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Partie Admin</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}" />
+  <link rel="icon" type="image/jpg" href="../../data/favicon.jpg" />
+</head>
+
+<body onload="myfunction_onload()">
+  <p class="menuHaut">
+    <button id="modeAdmButton" class="button" type="button" onclick="modeAdmin()">Modifier l'oeuvre</button>
+    <button id="seDecoButton2" class="button" type="button" onclick="seDeconnecter()">Se déconnecter</button>
+  </p>
+    <h1>MelodyMaster</h1>
+    <section class="corps">
+    <form id="oeuvreForm">
+      <p id="oeuvre">Nom de l'œuvre</p>
+      <p>Tonalité</p>
+      <input type="text" id="tonalite" placeholder="Tonalité" />
+      <p>Battements par minute</p>
+      <input type="text" id="bpm" placeholder="Bpm" />
+      <p>Date de sortie</p>
+      <input type="text" id="date_sortie" placeholder="DateSortie" />
+      <p>Genre</p>
+      <input type="text" id="genre" placeholder="Genre" />
+      <p id="auteur">Nom de l'auteur</p>
+
+      <p>
+        <input class="button" type="button" id="modifierOeuvreBtn" value="Modifier l'œuvre" onclick="boutonModifOeuvre()" />
+        <input class="button" type="button" id="annulerBtnOeuvre" value="Annuler" onclick="modeAdmin()"/>
+        
+      </p>
+      <!---<a href="">Mot de passe oublié</a>-->
+      <p id="errAdmin"></p>
+    
+      <input class="button" type="button" id="AjouterPistesOeuvreBtn" value="Ajouter des pistes à l'œuvre sélectionnée" onclick="boutonAjouterPistesOeuvre()" />
+      <input class="button" type="button" id="structurerOeuvreBtn" value="Structure l'œuvre sélectionnée" onclick="boutonStructurerOeuvre()" />
+    </form>
+        
+
+  </section>
+
+  <script src="{{ url_for('static',filename='js/adminModifOeuvre.js') }}"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+</body>

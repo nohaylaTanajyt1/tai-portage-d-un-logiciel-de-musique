@@ -1,0 +1,26 @@
+{
+    "oeuvre":{
+        "video": "video.mp4",
+        "instruments": 5
+    },
+    "violon1":{
+        "audio": "violon1.mp3",
+        "instrument": "violon"
+    },
+    "violon2":{
+        "audio": "violon2.mp3",
+        "instrument": "violon"
+    },
+    "violoncelle":{
+        "audio": "violoncelle.mp3",
+        "instrument": "violoncelle"
+    },
+    "alto2":{
+        "audio": "alto2.mp3",
+        "instrument": "alto"
+    },
+    "alto1":{
+        "audio": "alto1.mp3",
+        "instrument": "alto"
+    }
+}

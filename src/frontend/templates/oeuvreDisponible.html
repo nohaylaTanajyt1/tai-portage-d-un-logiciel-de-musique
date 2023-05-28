@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Menu Principal</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/style_oeuvreDisponible.css" />
+  <link rel="stylesheet" type="text/css" href="styles/style_commun.css" />
+</head>
+
+<body onload="onLoad()">
+  <p class="menuHaut">
+    <div class="status" onclick="modeAdmin()"> <a> Mode Administrateur </a> </div>
+    <button onclick="seDeconnecter()" class="deconnexion_btn" > <img src = "images/deconnexion_btn.png" alt="image">    Se déconnecter</button>
+
+  </p>
+  <h1>Menu principal</h1>
+  <nav>
+    <ul>
+      <li><a href="#" >Accueil</a></li>
+      <li><a href="#"" class="oeuvreDisponibles">Oeuvres Disponibles</a></li>
+      <li><a href="#">Quelques auteurs</a></li>
+    </ul>
+  </nav>
+  
+ <section class="corps">
+    <h3>Œuvres disponibles</h3>
+    <div id="oeuvreDisponible"></div>
+  </section>
+
+
+
+  <script src="{{ url_for('static',filename='js/menuPrincipal.js') }}"></script>
+</body>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vidéo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}" />
+</head>
+
+<body onload="onLoad()">
+  <p class="melodymaster">MelodyMaster</p>
+  <p class="menuHaut">
+    <button id="modeAdmButton" class="button" type="button" onclick="modeAdmin()">Modifier l'oeuvre</button>
+    <button id="seDecoButton2" class="button" type="button" onclick="seDeconnecter()">Se déconnecter</button>
+  </p>
+  <p class="menuRetour">
+    <button class="button2" type="button" onclick="retourMenuPrincipal()">Retour au choix de l'œuvre</button>
+  </p>
+
+  <h1 id="titreOeuvre"></h1>
+  <section class="corps">
+    <section id="menuLateral">
+      <input type="button" id="analyseBtn" onclick="affichageSection(this.id)" />
+      <input type="button" id="partitionBtn" onclick="affichageSection(this.id)" />
+      <input type="button" id="pianoRollBtn" onclick="affichageSection(this.id)" />
+      <input type="button" id="textBtn" onclick="affichageSection(this.id)" />
+    </section>
+    <section id="muteInstrument"></section>
+    <div id="zone_video"></div>
+    <section id="overlayVideo">
+      <input class="instru2" type="button" id="play" value="Play Vidéo" onclick="play()" />
+      <input class="instru2" type="button" id="pause" value="Pause" onclick="stop()" />
+      <input class="instru2" type="button" id="reculRapide" value="-10" onclick="reculRapide()" />
+      <input class="instru2" type="button" id="avanceRapide" value="+10" onclick="avanceRapide()" />
+      <span id="zone_temps"></span>
+    </section>
+    <section id="interface">
+      <div id="zone_partie"></div>
+    </section>
+    <section id="partition">Partition</section>
+    <section id="pianoRoll">PianoRoll</section>
+    <section id="text">
+      <div id="zone_text"></div>
+    </section>
+  </section>
+  <script src="{{ url_for('static',filename='js/video.js') }}"></script>
+</body>

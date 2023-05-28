@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Inscription</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}" />
+  <link rel="icon" type="image/jpg" href="../../data/favicon.jpg" />
+</head>
+
+<body onload="myfunction_onload()">
+    <p class="melodymaster">MelodyMaster</p>
+    <div id="mp3"> - Inscription - </div>
+    <section class="corps">
+    <form id="inscriptionForm">
+      
+      <p id="bienvenue">Pour vous inscrire veuillez renseigner les informations ci-dessous :</p>
+      <div id="carreInscription">
+      <p>Identifiant</p>
+      <input type="text" id="identifiant" placeholder="Identifiant" />
+      <p>Mot de passe</p>
+      <input type="password" id="mdp" placeholder="Mot de passe" />
+      <p>Adresse mail</p>
+      <input type="text" id="mail" placeholder="Adresse Mail" />
+      <p>
+        <input class="button" type="button" id="inscriptionBtn" value="Inscription" onclick="boutonInscription()" />
+      </p>
+    </div>
+      <!---<a href="">Mot de passe oublié</a>-->
+      <p id="errInscription"></p>
+      <p id="dejacpt">Vous avez déjà un compte ?</p>
+      <a onclick="retourConnexion()">Se connecter</a>
+    </form>
+  </section>
+
+  <script src="{{ url_for('static',filename='js/inscription.js') }}"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="js/jquery.xdomainajax.js"></script>
+
+</body>
