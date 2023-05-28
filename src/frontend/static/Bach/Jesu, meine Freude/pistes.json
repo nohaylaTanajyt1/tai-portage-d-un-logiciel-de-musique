@@ -1,0 +1,18 @@
+{
+    "oeuvre":{
+        "video": "video.mp4",
+        "instruments": 5
+    },
+    "cordes aigues":{
+        "audio": "cordes aigües.mp3",
+        "instrument": "cordes aigues"
+    },
+    "cordes graves":{
+        "audio": "cordes graves.mp3",
+        "instrument": "cordes graves"
+    },
+    "voix":{
+        "audio": "voix.mp3",
+        "instrument": "voix"
+    }
+}
