@@ -1,4 +1,4 @@
 Flask==2.3.2
 jsonpickle==3.0.1
 mido==1.2.10
-numpy==1.21.4
+numpy==1.21.1
