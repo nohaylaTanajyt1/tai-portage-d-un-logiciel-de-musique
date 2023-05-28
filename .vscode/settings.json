@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/backend/mysql/login",
+        "./src/backend/application",
+        "/path/to/python"
+    ]
+
+
+}
