@@ -13,3 +13,8 @@ https://yard.onl/sitelycee/cours/js/_Js.html?Laudio.html
 
 ## Fonctions asynchrones en JS : 
 https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Introducing
+
+
+## Deployment:
+
+https://tai-music.herokuapp.com/
