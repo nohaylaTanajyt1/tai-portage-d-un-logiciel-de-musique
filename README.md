@@ -1,3 +1,12 @@
+# Deployment:
+
+
+https://tai-music.herokuapp.com/
+
+
+
+
+
 # Sources intéressantes : 
 ## Pyo : un module python pour le traitement de fichiers audio
 http://www.augmented-instruments.net/_media/pyo_as_python_dsp_toolbox.pdf
@@ -15,6 +24,4 @@ https://yard.onl/sitelycee/cours/js/_Js.html?Laudio.html
 https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Introducing
 
 
-## Deployment:
 
-https://tai-music.herokuapp.com/
